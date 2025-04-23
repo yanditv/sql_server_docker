@@ -1,6 +1,6 @@
 services:
   sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-lts
+    image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: sqlserver
     ports:
       - "${MSSQL_PORT}:1433"
